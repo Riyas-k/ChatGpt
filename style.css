@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+#results{
+    height: 84vh;
+    overflow-y: scroll;
+}
+.response{
+    padding: 20px;
+    border: solid 1px grey;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#prompt{
+    width: 80%;
+    height: 80px;
+    font-size: 25px;
+    margin-left: 30px;
+    resize: none;
+}
+#ask{
+    height: 80px;
+    width: 15%;
+    position: relative;
+    top: -38px;
+}
